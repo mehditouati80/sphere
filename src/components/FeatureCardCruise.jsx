@@ -264,7 +264,7 @@ export default function FeatureCardCruise() {
                                     Advanced Back-Office for cruise industry
                                 </p>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    Our BackOffice solution empowers travel agencies to efficiently map cruise line content to their database and enrich it with multimedia. Develop and customize cruise promotions packages to meet your clients' unique needs.
+                                    Our BackOffice solution empowers your company to efficiently map cruise line content to their database and enrich it with multimedia. Develop and customize cruise promotions packages to meet your clients' unique needs.
 
                                 </p>
                                 <dl className="mt-6 text-base leading-7 text-gray-600 lg:max-w-none grid grid-cols-3 gap-3">
@@ -300,7 +300,7 @@ export default function FeatureCardCruise() {
                                 <p className="mt-2  text-gray-900 sm:text-5xl bg-gradient-to-r from-cruise to-purple-900 text-transparent bg-clip-text font-display text-7xl font-bold tracking-tight">
                                     Optimize Your Travel Agency's Online Presence with Our Advanced CMS</p>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    Our CMS is designed to help travel agencies specializing in cruises efficiently manage their website content. Enhance your online presence with tools for multimedia content management, ship and itinerary details, promotional offers, and customizable templates.
+                                    Our CMS is designed to help your company specializing in cruises efficiently manage their website content. Enhance your online presence with tools for multimedia content management, ship and itinerary details, promotional offers, and customizable templates.
                                 </p>
                                 <dl className="mt-6 text-base leading-7 text-gray-600 lg:max-w-none grid grid-cols-3 gap-3">
                                     {featuresCMS.map((feature) => (
@@ -337,7 +337,7 @@ export default function FeatureCardCruise() {
                                     Empower Your Travel Agency with Our API
                                 </p>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    Our Web Service module, powered by GraphQL, enables travel agencies to access comprehensive cruise departure data with various search criteria.
+                                    Our Web Service module, powered by GraphQL, enables your company to access comprehensive cruise departure data with various search criteria.
                                     {/* Enrich your content with images and text about ships, cabins, destinations, and ports. The Web Service also allows for booking reservations, cabin holds, and options directly with cruise lines. */}
                                 </p>
                                 <dl className="mt-6 text-base leading-7 text-gray-600 lg:max-w-none grid grid-cols-2 gap-3">
@@ -374,7 +374,7 @@ export default function FeatureCardCruise() {
                                     Maximize Your Cruise Sales with Our Versatile Cruise Booking Engine
                                 </p>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    Our Cruise Booking Engine caters to B2B, B2C, White Label, and B2B2C models, providing a comprehensive solution for travel agencies.
+                                    Our Cruise Booking Engine caters to B2B, B2C, White Label, and B2B2C models, providing a comprehensive solution for your company.
                                     Enjoy seamless integration, robust booking capabilities, and a user-friendly interface that enhances the customer experience.
                                 </p>
                                 <dl className="mt-6 text-base leading-7 text-gray-600 lg:max-w-none grid grid-cols-2 gap-3">

@@ -30,7 +30,7 @@ export function HeroCrm() {
           CRM
         </div>
         <h1 className="bg-gradient-to-r from-white to-blue-400 text-transparent bg-clip-text font-display text-7xl font-bold max-w-6xl mx-auto tracking-tight drop-shadow-xl">
-          Optimized CRM Tools <br></br> for Travel Agencies
+          Optimized CRM Tools <br></br> for your company
         </h1>
         <p className="mx-auto mt-6 max-w-3xl text-lg tracking-tight text-white/70">
           By integrating robust customer management, lead generation, and sales tracking features,

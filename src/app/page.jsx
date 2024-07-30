@@ -19,7 +19,7 @@ import { CallToAction2 } from '@/components/CallToAction2'
 export default function Home() {
   return (
     <>
-      <div className="bg-blue-950">
+      <div className="bg-gradient-to-r from-blue-900 to-violet-900">
         <Header2 />
         <Hero2 />
       </div>

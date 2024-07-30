@@ -60,10 +60,10 @@ export function Hero2() {
 
 
         <div className="relative isolate overflow-hidden">
-            <div className="relative  max-w-5xl mx-auto">
+            <div className="relative  max-w-7xl mx-auto">
                 <Image
                     src={sphere} alt=""
-                    className="mx-auto h-[1200px]  w-auto object-cover"
+                    className="mx-auto h-[930px]  w-auto object-cover"
                 />
             </div>
             <div
@@ -92,7 +92,7 @@ export function Hero2() {
 
             </div>
 
-            <div
+            {/* <div
                 className="absolute inset-x-0  -z-10 top-0"
                 aria-hidden="true"
             >
@@ -101,7 +101,7 @@ export function Hero2() {
                     className="mx-auto w-full object-cover opacity-10"
                 />
 
-            </div>
+            </div> */}
 
 
             {/* <div className=" flex justify-center items-center">
@@ -126,10 +126,10 @@ export function Hero2() {
                     <div className="text-center">
 
                         <h1 className="text-4xl font-bold font-display  sm:text-6xl bg-gradient-to-r from-white  to-blue-300 inline-block text-transparent bg-clip-text">
-                            Sail to Success with Cruise-360°
+                            Put your slogon with your business 
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-300 ">
-                            Empowering cruise agencies to streamline operations, enhance productivity, and drive growth with integrated tools for customer engagement and data analytics.
+                            Empowering yout company to streamline operations, enhance productivity, and drive growth with integrated tools for customer engagement and data analytics.
                         </p>
                         <div className="mt-10 flex flex-col items-center justify-center gap-y-6">
                             {/* <a
@@ -138,7 +138,7 @@ export function Hero2() {
                 >
                   Get started
                 </a> */}
-                            <a href="#global" className="text-sm font-semibold leading-6 text-white flex items-center gap-x-2 justify-center bg-black/20 hover:bg-black/30 px-6 py-3 rounded-xl ">
+                            <a href="#global" className="text-sm font-semibold leading-6 text-white flex items-center gap-x-2 justify-center bg-gradient-to-r from-blue-400 to-violet-600 hover:bg-black/30 px-6 py-3 rounded-xl ">
                                 <span> Learn more </span>  <ArrowDownIcon className='w-4 h-4' />
                             </a>
                         </div>

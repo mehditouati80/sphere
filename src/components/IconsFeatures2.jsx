@@ -4,14 +4,13 @@ import Link from 'next/link'
 import { Container } from './Container'
 
 const features = [
-
-    { name: 'Cruise ', description: 'Connect with customers where they are', href: '/cruise', icon: ShipIcon, style: 'cruise' },
-    { name: 'CRM ', description: 'Optimized Sales Management for Travel Agencies, by integrating robust customer management, lead generation, and sales tracking features,', href: '/crm', icon: UsersIcon, style: 'crm' },
-    { name: 'Socials Medias', description: 'Automate your customers\' communication with artificial intelligence-driven bots and a Live Chat system optimized  with smarter conversations on any channel. WhatsApp, Messenger, Instagram, Email, Telegram, ...', href: '/socials', icon: Share2Icon, style: 'socials' },
     { name: 'Unified', description: 'Streamline all cruise inquiries from website, social media, WhatsApp, live chat, phone, email, and in-office visits with our all-in-one IT solution.', href: '/unified', icon: MessageSquareTextIcon, style: 'unified' },
+    // { name: 'Cruise ', description: 'Connect with customers where they are', href: '/cruise', icon: ShipIcon, style: 'cruise' },
+    { name: 'CRM ', description: 'Optimized Sales Management for your company, by integrating robust customer management, lead generation, and sales tracking features,', href: '/crm', icon: UsersIcon, style: 'crm' },
+    { name: 'Socials Medias', description: 'Automate your customers\' communication with artificial intelligence-driven bots and a Live Chat system optimized  with smarter conversations on any channel. WhatsApp, Messenger, Instagram, Email, Telegram, ...', href: '/socials', icon: Share2Icon, style: 'socials' },
     { name: 'Emailing', description: 'Streamline all cruise inquiries from website, social media, WhatsApp, live chat, phone, email, and in-office visits with our all-in-one IT solution.', href: '/marketing', icon: MailOpenIcon, style: 'marketing' },
     { name: 'Call Center', description: 'Streamline all cruise inquiries from website, social media, WhatsApp, live chat, phone, email, and in-office visits with our all-in-one IT solution.', href: '/unified', icon: HeadsetIcon, style: 'callcenter' },
-    { name: 'VoIP', description: 'Streamline all cruise inquiries from website, social media, WhatsApp, live chat, phone, email, and in-office visits with our all-in-one IT solution.t', href: '/ia', icon: PhoneCallIcon, style: 'voip' },
+    { name: 'VoIP', description: 'Streamline all cruise inquiries from website, social media, WhatsApp, live chat, phone, email, and in-office visits with our all-in-one IT solution.t', href: '/unified', icon: PhoneCallIcon, style: 'voip' },
     { name: 'IA', description: 'Streamline all cruise inquiries from website, social media, WhatsApp, live chat, phone, email, and in-office visits with our all-in-one IT solution.t', href: '/ia', icon: BotMessageSquare, style: 'ia' },
 
 

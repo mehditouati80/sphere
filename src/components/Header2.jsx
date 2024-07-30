@@ -29,15 +29,15 @@ const navigation = [
   { name: 'Company', href: '#' },
 ]
 const products = [
-  { name: 'Cruise Manager ', description: 'Discover all the essential tools you need to efficiently manage your travel products.', href: '/cruise', icon: Ship, style: 'cruise' },
-  { name: 'CRM ', description: 'Comprehensive CRM & Sales Process Solution for Travel Agencies', href: '/crm', icon: UsersIcon, style: 'crm' },
-  { name: 'Socials Medias', description: ' Multi-Channel Live Chat Solution for Seamless Customer Interaction', href: '/socials', icon: Share2Icon, style: 'socials' },
   { name: 'Unified', description: 'Unify Your Team with Our All-in-One Communication and Collaboration Solution', href: '/unified', icon: MessageSquareTextIcon, style: 'unified' },
+  { name: 'CRM Sales & HD ', description: 'Comprehensive CRM & Sales Process Solution for your Business', href: '/crm', icon: UsersIcon, style: 'crm' },
+  { name: 'Socials Medias', description: ' Multi-Channel Live Chat Solution for Seamless Customer Interaction', href: '/socials', icon: Share2Icon, style: 'socials' },
   { name: 'Emailing', description: 'Boost Your Marketing with Our Emailing and Marketing Automation Solution', href: '/marketing', icon: MailOpenIcon, style: 'marketing' },
+  // { name: 'Cruise Manager ', description: 'Discover all the essential tools you need to efficiently manage your travel products.', href: '/cruise', icon: Ship, style: 'cruise' },
+  { name: 'VoIP', description: 'Revolutionize Your Communication with Our IP Telephony Solution', href: '/unified', icon: PhoneCallIcon, style: 'voip' },
   { name: 'Call Center', description: 'Enhance Your Call Center Operations with Our CRM Solution', href: '/unified', icon: HeadsetIcon, style: 'callcenter' },
-  { name: 'VoIP', description: 'Revolutionize Your Communication with Our IP Telephony Solution', href: '/ia', icon: PhoneCallIcon, style: 'voip' },
   { name: 'IA', description: 'Build Customer Support with AI-Powered Live Chat Integration', href: '/ia', icon: BotMessageSquare, style: 'ia' },
-  //  { name: 'Dashboard', description: 'Speak directly to your customers', href: '/dashboard', icon: Share2Icon, style: 'socials' },
+  { name: 'Dashboard', description: 'Speak directly to your customers', href: '/dashboard', icon: Share2Icon, style: 'socials' },
 
 
 ]
@@ -87,7 +87,7 @@ export function Header2() {
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
               <Popover className="relative">
                 <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold font-display leading-6 text-white outline-none   opacity-70 hover:opacity-100">
-                  Products
+                  Solutions
                   <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                 </Popover.Button>
 

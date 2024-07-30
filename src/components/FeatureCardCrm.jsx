@@ -151,7 +151,7 @@ const featuresDeals = [
 ]
 const featuresView = [
     {
-        name: '360° Deal View',
+        name: 'Deal View',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: CheckIcon,
@@ -333,7 +333,7 @@ export default function FeatureCardCrm() {
                     </div>
                 </div>
             </div>
-            <div className="overflow-hidden bg-white py-12 sm:py-16">
+            <div className="hidden overflow-hidden bg-white py-12 sm:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                         <div className="lg:pr-4 lg:pt-4">
@@ -372,8 +372,8 @@ export default function FeatureCardCrm() {
                     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                         <div className="lg:ml-auto lg:pl-4 lg:pt-4">
                             <div className="">
-                                <h2 className="text-base font-semibold leading-7 text-indigo-600">Vue 360°</h2>
-                                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl font-display">Comprehensive 360° view of all your process </p>
+                                <h2 className="text-base font-semibold leading-7 text-indigo-600">Sphere view</h2>
+                                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl font-display">Comprehensive global view of all your process </p>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
                                     This powerful tool helps sales teams stay organized, track every touchpoint, and gain deeper insights into deal progression.
                                     You can streamline your sales process, enhance customer relationships, and drive more effective deal management through a visually rich and user-friendly platform.
@@ -391,7 +391,7 @@ export default function FeatureCardCrm() {
                                 </dl>
                             </div>
                         </div>
-                        <div className="flex items-start justify-end lg:order-first">
+                        
                             <Image
                                 src={contacts}
                                 alt="Product screenshot"
@@ -399,7 +399,7 @@ export default function FeatureCardCrm() {
                                 width={2432}
                                 height={1442}
                             />
-                        </div>
+                         
                     </div>
                 </div>
             </div>

@@ -4,14 +4,13 @@ import Link from 'next/link'
 import { Container } from './Container'
 
 const features = [
-
-    { name: 'Cruise Manager', description: 'Our comprehensive suite of tools includes a robust Real time Cruise Booking Engine, B2C and B2B platforms, Mid-Office and Back-Office solutions. Take advantage of our Web Service API and customizable White Label options to seamlessly integrate and brand our solutions as your own.', href: '/cruise', icon: ShipIcon, style: 'cruise' },
-    { name: 'CRM & Sales ', description: 'Optimize your travel agency\'s sales management with our integrated CRM solution. Benefit from robust customer management, effective lead generation, a live booking manager, and sales tracking features. Streamline your process with tools tailored for the travel industry.    ', href: '/crm', icon: UsersIcon, style: 'crm' },
-    { name: 'Socials media', description: 'Automate your customers\' communication with artificial intelligence-driven bots and a Live Chat system optimized  with smarter conversations on any channel. WhatsApp, Messenger, Instagram, Email, Telegram, ...  Centralize your communication channels by managing every interaction from a single platform.', href: '/socials', icon: Share2Icon, style: 'socials' },
+    // { name: 'Cruise Manager', description: 'Our comprehensive suite of tools includes a robust Real time Cruise Booking Engine, B2C and B2B platforms, Mid-Office and Back-Office solutions. Take advantage of our Web Service API and customizable White Label options to seamlessly integrate and brand our solutions as your own.', href: '/cruise', icon: ShipIcon, style: 'cruise' },
     { name: 'Unified', description: 'Our comprehensive solution integrates unified communication and collaboration tools, including IP telephony, advanced instant messaging with group management, video conferencing, task management, and a shared email inbox.  Designed to streamline your team\'s workflow and enhance productivity.', href: '/unified', icon: MessageSquareTextIcon, style: 'unified' },
+    { name: 'Sales & HelpDesk ', description: 'Optimize your travel agency\'s sales management with our integrated CRM solution. Benefit from robust customer management, effective lead generation, a live booking manager, and sales tracking features. Streamline your process with tools tailored for the travel industry.    ', href: '/crm', icon: UsersIcon, style: 'crm' },
+    { name: 'Socials media', description: 'Automate your customers\' communication with artificial intelligence-driven bots and a Live Chat system optimized  with smarter conversations on any channel. WhatsApp, Messenger, Instagram, Email, Telegram, ...  Centralize your communication channels by managing every interaction from a single platform.', href: '/socials', icon: Share2Icon, style: 'socials' },
     { name: 'Emailing', description: 'Maximize your marketing efforts with our powerful solution for mass emailing and marketing automation. Effortlessly create, send, and track email campaigns, and automate your marketing processes to engage customers effectively. Enhance your outreach, nurture leads, and drive conversions with our all-in-one marketing platform.', href: '/marketing', icon: MailOpenIcon, style: 'marketing' },
+    { name: 'VoIP', description: 'Our IP telephony solution offers reliable and high-quality voice communication for businesses. Benefit from advanced call features, seamless integration with existing systems, and cost-effective communication. Enhance your business operations with a telephony solution designed for modern needs.', href: '/unified', icon: PhoneCallIcon, style: 'voip' },
     { name: 'Call Center', description: 'Optimize your call center operations with our comprehensive CRM solution. Streamline customer interactions, improve lead management, and track sales performance with ease. Our CRM is designed to enhance agent productivity, boost customer satisfaction, and drive business growth through effective communication and data management.', href: '/unified', icon: HeadsetIcon, style: 'callcenter' },
-    { name: 'VoIP', description: 'Our IP telephony solution offers reliable and high-quality voice communication for businesses. Benefit from advanced call features, seamless integration with existing systems, and cost-effective communication. Enhance your business operations with a telephony solution designed for modern needs.', href: '/ia', icon: PhoneCallIcon, style: 'voip' },
     { name: 'IA', description: 'Transform your customer support with our AI-powered live chat integration. Leverage generative AI to provide instant, accurate, and personalized responses to customer inquiries. Enhance customer satisfaction, reduce response times, and streamline your support operations with cutting-edge AI technology embedded in your live chat solution.', href: '/ia', icon: BotMessageSquare, style: 'ia' },
 
 
@@ -36,7 +35,7 @@ export default function IconsFeatures() {
             </div>
             <Container>
                 <div className="mx-auto max-w-3xl lg:text-center">
-                    <h2 className="text-base font-semibold leading-7 text-blue-600">Cruise-360°</h2>
+                    <h2 className="text-base font-semibold leading-7 text-blue-600">Comunik Sphere</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl font-display">
                         All-in One Business Empowerment Solution
                     </p>

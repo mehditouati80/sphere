@@ -5,11 +5,11 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Cruise-360°',
-    default: 'Sail to Success with Cruise-360°',
+    template: '%s - Comunik Sphere',
+    default: 'Comunik Sphere',
   },
   description:
-    'Empowering cruise agencies to streamline operations, enhance productivity, and drive growth with integrated tools for customer engagement and data analytics.',
+    'Empowering your business to streamline operations, enhance productivity, and drive growth with integrated tools for customer engagement and data analytics.',
 }
 
 const inter = Inter({
